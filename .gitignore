@@ -25,5 +25,45 @@ doc/api/
 *.js.deps
 *.js.map
 
+# Flutter
 .flutter-plugins
 .flutter-plugins-dependencies
+.pub-cache/
+.pub/
+.metadata
+.packages
+coverage/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Android
+**/android/.gradle
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+*.keystore
+
+# iOS / macOS
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/Flutter/Flutter.framework
+**/ios/**/Flutter/Flutter.podspec
+**/ios/**/Flutter/Generated.xcconfig
+**/ios/**/Flutter/ephemeral
+**/ios/**/Flutter/app.flx
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/macos/Flutter/ephemeral
+
+# Misc
+.DS_Store
+*.log
+app.*.symbols
+app.*.map.json
